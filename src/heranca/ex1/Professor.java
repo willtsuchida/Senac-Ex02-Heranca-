@@ -6,7 +6,32 @@ public class Professor extends Pessoa {
     private String dataAdmissao;
     private double salarioHora;
 
+    public int getMatriculaProfessor() {
+        return matriculaProfessor;
+    }
+
+    public void setMatriculaProfessor(int matriculaProfessor) {
+        this.matriculaProfessor = matriculaProfessor;
+    }
+
+    public String getDataAdmissao() {
+        return dataAdmissao;
+    }
+
+    public void setDataAdmissao(String dataAdmissao) {
+        this.dataAdmissao = dataAdmissao;
+    }
+
+    public double getSalarioHora() {
+        return salarioHora;
+    }
+
+    public void setSalarioHora(double salarioHora) {
+        this.salarioHora = salarioHora;
+    }
+
     public String retornaDadosProfessor() {
+
         String dados;
 
         dados = super.retornaDados();
