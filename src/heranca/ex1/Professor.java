@@ -2,9 +2,9 @@ package heranca.ex1;
 
 public class Professor extends Pessoa {
 
-    int matriculaProfessor;
-    String dataAdmissao;
-    double salarioHora;
+    private int matriculaProfessor;
+    private String dataAdmissao;
+    private double salarioHora;
 
     public String retornaDadosProfessor() {
         String dados;
