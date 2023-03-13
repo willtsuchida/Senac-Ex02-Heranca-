@@ -1,4 +1,4 @@
-package heranca.ex1;
+package heranca.ex2;
 
 public class Pessoa {
 

@@ -1,4 +1,4 @@
-package heranca.ex1;
+package heranca.ex2;
 
 public class Professor extends Pessoa {
 
@@ -36,9 +36,9 @@ public class Professor extends Pessoa {
 
         dados = super.retornaDados();
 
-        dados += "Matricula: " + this.matriculaProfessor + "\n";
+        dados += "Matrícula: " + this.matriculaProfessor + "\n";
         dados += "Data da admissão: " + this.dataAdmissao + "\n";
-        dados += "Salario por hora: " + this.salarioHora + "\n";
+        dados += "Salário por hora: " + this.salarioHora + "\n";
 
         return dados;
     }

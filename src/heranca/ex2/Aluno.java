@@ -1,18 +1,18 @@
-package heranca.ex1;
+package heranca.ex2;
 
 public class Aluno extends Pessoa {
 
-    private int registroAluno;
+    private int numMatricula;
     private float notaVestibular;
     private String curso;
     private String dataMatricula;
 
     public int getRegistroAluno() {
-        return registroAluno;
+        return numMatricula;
     }
 
     public void setRegistroAluno(int registroAluno) {
-        this.registroAluno = registroAluno;
+        this.numMatricula = registroAluno;
     }
 
     public float getNotaVestibular() {
@@ -44,7 +44,7 @@ public class Aluno extends Pessoa {
 
         dados = super.retornaDados();
 
-        dados += "Registro Aluno: " + this.registroAluno + "\n";
+        dados += "Registro Aluno: " + this.numMatricula + "\n";
         dados += "Nota vestibular: " + this.notaVestibular + "\n";
         dados += "Curso: " + this.curso + "\n";
         dados += "Data da matrícula: " + this.dataMatricula + "\n";
